@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Garg — Portfolio</title>
+    <meta name="description" content="Yash Garg — developer who builds cool stuff on the web." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ===== INTRO ===== -->
+    <div id="intro">
+        <div class="intro-words">
+            <span class="intro-word">Hey there</span>
+            <span class="intro-word pause">.</span>
+            <span class="intro-word pause">.</span>
+            <span class="intro-word pause">.</span>
+        </div>
+        <div class="intro-reveal">
+            <span>Let me show you around &darr;</span>
+        </div>
+    </div>
+
+    <!-- ===== NAV ===== -->
+    <nav id="nav">
+        <a href="#" class="logo">yash<span>.</span></a>
+        <div class="nav-links" id="navLinks">
+            <a href="#about">about</a>
+            <a href="#skills">skills</a>
+            <a href="#work">work</a>
+            <a href="#contact">say hi</a>
+        </div>
+        <button class="burger" id="burger" aria-label="menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="3" y1="6" x2="21" y2="6" class="line1" />
+                <line x1="3" y1="12" x2="21" y2="12" class="line2" />
+                <line x1="3" y1="18" x2="21" y2="18" class="line3" />
+            </svg>
+        </button>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header id="hero">
+        <div class="hero-inner">
+            <div class="hero-badge anim">available for freelance</div>
+            <h1 class="hero-h1 anim">
+                I'm <em>Yash Garg</em>,<br />
+                I build things for<br />
+                the <span class="hero-underline">web</span>.
+            </h1>
+            <p class="hero-sub anim">
+                A curious developer from India who loves turning ideas into
+                clean, functional &amp; good-looking digital products.
+            </p>
+            <div class="hero-cta anim">
+                <a href="#work" class="btn">see my work</a>
+                <a href="#contact" class="btn btn--ghost">get in touch</a>
+            </div>
+        </div>
+        <div class="hero-deco">
+            <div class="blob blob--1"></div>
+            <div class="blob blob--2"></div>
+        </div>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <div class="wrap">
+            <div class="section-label anim">who am i?</div>
+            <div class="about-layout">
+                <div class="about-left anim">
+                    <h2>I'm a developer who<br />cares about <em>craft</em>.</h2>
+                    <p>
+                        I started coding because I wanted to build a website for my college fest — and kinda never
+                        stopped. Since then,
+                        I've worked on everything from landing pages to full-stack apps. I believe good software should
+                        feel effortless to use.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me sketching UI ideas, binge-watching tech talks, or debating
+                        whether tabs or spaces matter (they do).
+                    </p>
+                </div>
+                <div class="about-right anim">
+                    <div class="about-nums">
+                        <div class="num-card">
+                            <span class="num" data-to="15">0</span>
+                            <span class="num-label">projects shipped</span>
+                        </div>
+                        <div class="num-card">
+                            <span class="num" data-to="2">0</span>
+                            <span class="num-label">years of building</span>
+                        </div>
+                        <div class="num-card">
+                            <span class="num" data-to="10">0</span>
+                            <span class="num-label">happy clients</span>
+                        </div>
+                        <div class="num-card">
+                            <span class="num" data-to="1000">0</span>
+                            <span class="num-label">cups of chai ☕</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+        <div class="wrap">
+            <div class="section-label anim">what i know</div>
+            <h2 class="skills-h2 anim">My toolkit.</h2>
+            <div class="skills-cloud anim">
+                <div class="skill-pill" data-level="95">HTML5</div>
+                <div class="skill-pill" data-level="90">CSS3 / SASS</div>
+                <div class="skill-pill" data-level="85">JavaScript</div>
+                <div class="skill-pill" data-level="80">React</div>
+                <div class="skill-pill" data-level="75">Node.js</div>
+                <div class="skill-pill" data-level="85">Git</div>
+                <div class="skill-pill" data-level="80">Python</div>
+                <div class="skill-pill" data-level="70">Figma</div>
+                <div class="skill-pill" data-level="65">MongoDB</div>
+                <div class="skill-pill" data-level="70">TypeScript</div>
+                <div class="skill-pill" data-level="60">Docker</div>
+                <div class="skill-pill" data-level="75">REST APIs</div>
+            </div>
+            <div class="skill-bars anim">
+                <div class="sbar"><span class="sbar-name">Frontend</span>
+                    <div class="sbar-track">
+                        <div class="sbar-fill" data-w="92"></div>
+                    </div>
+                </div>
+                <div class="sbar"><span class="sbar-name">Backend</span>
+                    <div class="sbar-track">
+                        <div class="sbar-fill" data-w="76"></div>
+                    </div>
+                </div>
+                <div class="sbar"><span class="sbar-name">Design</span>
+                    <div class="sbar-track">
+                        <div class="sbar-fill" data-w="70"></div>
+                    </div>
+                </div>
+                <div class="sbar"><span class="sbar-name">DevOps</span>
+                    <div class="sbar-track">
+                        <div class="sbar-fill" data-w="55"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WORK ===== -->
+    <section id="work">
+        <div class="wrap">
+            <div class="section-label anim">stuff i've built</div>
+            <h2 class="work-h2 anim">Selected Projects.</h2>
+            <div class="projects">
+
+                <article class="project anim">
+                    <div class="project-img">
+                        <img src="img-ecommerce.png" alt="E-Commerce Platform screenshot" loading="lazy" />
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Full-Stack</span>
+                        <h3>ShopWave — E-Commerce</h3>
+                        <p>Built a complete shopping platform with cart, Stripe checkout, auth, and an admin panel.
+                            Handled 200+ test orders without a hiccup.</p>
+                        <div class="project-stack">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span><span>Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://reactjs-ecommerce-app.vercel.app/">live site &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project project--flip anim">
+                    <div class="project-img">
+                        <img src="img-analytics.png" alt="Analytics Dashboard screenshot" loading="lazy" />
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Data Viz</span>
+                        <h3>DataPulse — Analytics Dashboard</h3>
+                        <p>Interactive dashboard with live charts, filterable metrics, dark mode, and CSV export. Built
+                            for a startup's internal team.</p>
+                        <div class="project-stack">
+                            <span>JavaScript</span><span>D3.js</span><span>REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://colorlib.com/polygon/adminator/index.html">live demo &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project anim">
+                    <div class="project-img">
+                        <img src="img-fitness.png" alt="Fitness Tracker screenshot" loading="lazy" />
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Mobile</span>
+                        <h3>FitLog — Fitness Companion</h3>
+                        <p>Cross-platform app with custom workout plans, progress graphs, and streak tracking. My
+                            most-used personal project tbh.</p>
+                        <div class="project-stack">
+                            <span>React Native</span><span>Firebase</span><span>Redux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://react-gym-fitness-website.vercel.app/">live demo &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project project--flip anim">
+                    <div class="project-img">
+                        <img src="img-chatbot.png" alt="AI Chat Assistant screenshot" loading="lazy" />
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">AI / ML</span>
+                        <h3>BrainBot — AI Assistant</h3>
+                        <p>Conversational AI that actually understands context. Trained on custom data, served via
+                            Flask, and wrapped in a clean chat UI.</p>
+                        <div class="project-stack">
+                            <span>Python</span><span>TensorFlow</span><span>Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://chatgpt-clone-ervin-sungkono.vercel.app/">try it &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <div class="wrap">
+            <div class="section-label anim">let's talk</div>
+            <h2 class="contact-h2 anim">Got an idea?<br />Let's make it real.</h2>
+            <div class="contact-layout">
+                <form class="contact-form anim" id="contactForm">
+                    <div class="field">
+                        <input type="text" id="name" required autocomplete="name" />
+                        <label for="name">what's your name?</label>
+                    </div>
+                    <div class="field">
+                        <input type="email" id="email" required autocomplete="email" />
+                        <label for="email">your email</label>
+                    </div>
+                    <div class="field">
+                        <textarea id="msg" rows="4" required></textarea>
+                        <label for="msg">tell me about your project</label>
+                    </div>
+                    <button type="submit" class="btn">send message &rarr;</button>
+                </form>
+                <div class="contact-side anim">
+                    <div class="contact-card">
+                        <span class="contact-card-icon">&#9993;</span>
+                        <div>
+                            <strong>Email me</strong>
+                            <a href="mailto:ygyashgrg@gmail.com">ygyashgrg@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <span class="contact-card-icon">&#9873;</span>
+                        <div>
+                            <strong>Based in</strong>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    <div class="socials">
+                        <a href="https://github.com/Yashgarg1638" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 .3a12 12 0 00-3.8 23.38c.6.11.82-.26.82-.58v-2.16c-3.34.73-4.04-1.61-4.04-1.61a3.18 3.18 0 00-1.34-1.76c-1.09-.74.08-.73.08-.73a2.52 2.52 0 011.84 1.24 2.56 2.56 0 003.5 1 2.56 2.56 0 01.76-1.6c-2.67-.3-5.47-1.33-5.47-5.93a4.64 4.64 0 011.24-3.22 4.3 4.3 0 01.12-3.18s1-.33 3.3 1.23a11.38 11.38 0 016 0c2.3-1.56 3.3-1.23 3.3-1.23a4.3 4.3 0 01.12 3.18 4.64 4.64 0 011.24 3.22c0 4.61-2.8 5.63-5.48 5.93a2.86 2.86 0 01.82 2.22v3.29c0 .32.22.7.82.58A12 12 0 0012 .3z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/yashgarg1638/" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05a3.74 3.74 0 013.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 110-4.13 2.06 2.06 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77A1.75 1.75 0 000 1.73v20.54A1.75 1.75 0 001.77 24h20.45A1.76 1.76 0 0024 22.27V1.73A1.76 1.76 0 0022.22 0z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/ygyash_grg/" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer">
+        <div class="wrap footer-row">
+            <span>designed & built by <strong>Yash Garg</strong> &middot; 2026</span>
+            <a href="#hero" class="to-top">&uarr; top</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
